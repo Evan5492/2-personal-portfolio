@@ -38,21 +38,31 @@ h2{
     background-color: aqua;
 }
 
+
 #first_project{
     padding:30px ;
-    display: block;
-    
+    height: 500px;
+    display: flex;
+    position: relative;
     
     
 }
 
-.projects{
+.projects-1{
     padding: 10px;
-    justify-content: space-around;
-    height: 10%;
+    justify-content: space-between;
+    height: 5%;
     
 }
 
+
+.projects-2{
+    padding: 10px;
+    justify-content: space-between;
+    height: 5%;
+    
+
+}
 
 
 /*GIVEN I need to sample a potential employee's previous work
