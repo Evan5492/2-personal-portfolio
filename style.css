@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+nav{    
+    display: flex;
+    padding: 15px 15px;
+    align-items: initial;
+    justify-content: space-between;
+    margin: 50px 50px;
+
+}
+
+nav ul li{
+    display:inline-block;
+    
+}
+
+nav ul li a{
+    color: black;
+    font-size: xx-large;
+    padding: 20px;
+}
+
+nav ul li a:hover{
+    color: darkblue;
+}
+
+h2{
+    color: darkblue;
+    
+}
+
+.hero{
+    background-color: aqua;
+}
+
+#first_project{
+    padding:30px ;
+    display: block;
+    
+    
+    
+}
+
+.projects{
+    padding: 10px;
+    justify-content: space-around;
+    height: 10%;
+    
+}
+
+
+
+/*GIVEN I need to sample a potential employee's previous work
+WHEN I load their portfolio
+THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
+WHEN I click one of the links in the navigation
+THEN the UI scrolls to the corresponding section
+WHEN I click on the link to the section about their work
+THEN the UI scrolls to a section with titled images of the developer's applications
+WHEN I am presented with the developer's first application
+THEN that application's image should be larger in size than the others
+WHEN I click on the images of the applications
+THEN I am taken to that deployed application
+WHEN I resize the page or view the site on various screens and devices
+THEN I am presented with a responsive layout that adapts to my viewport*/
